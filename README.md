@@ -2,10 +2,9 @@
 
 
 ## Inline Functions output:
-Start
-all threads started
-Start Inline
-textFile.txt
+
+### OUTPUT 1
+all threads started - textFile.txt
 
 Finish Inline: chars=1215722 - 740000
 - JAVA:inline:CODE startTime 2017-11-26T22:22:09.297
@@ -19,11 +18,8 @@ Finish: chars=1215722 - 850000
 - JAVA::CODE interval 104000
 
 
-
-all threads started
-Start
-Start Inline
-textFile.txt
+### OUTPUT 2
+all threads started - textFile.txt
 
 Finish Inline: chars=1215722 - 860000
 - JAVA:inline:CODE startTime 2017-11-26T22:17:26.770
