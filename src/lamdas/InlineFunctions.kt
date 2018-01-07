@@ -20,7 +20,7 @@ fun threadInlineFunction() {
     val test2 = MyClass()
     println("Start Inline")
     val startNano2 = LocalDateTime.now().nano
-    val text2 = test2.inlineGetText("src/assets/textFile.txt")
+    val text2 = test2.inlineGetText("assets/textFile.txt")
 //    println("$text2 \nnumber of characters in text: ${text2.length} ")
     println("Finish Inline: chars=${text2.length} - ${(LocalDateTime.now().nano - startNano2)/100}")
 }
@@ -29,7 +29,7 @@ fun threadHighOrderFunction() {
     val test = MyClass()
     println("Start")
     val startNano = LocalDateTime.now().nano
-    val text = test.getText("src/assets/textFile.txt")
+    val text = test.getText("assets/textFile2.txt")
 //    println("$text \nnumber of characters in text: ${text.length} ")
     println("Finish: chars=${text.length} - ${(LocalDateTime.now().nano - startNano)/100}")
 }
